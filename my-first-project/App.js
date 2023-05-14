@@ -5,14 +5,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import Cafe from './Cafe'
 import {useState, useEffect} from 'react';
 import PizzaTranslator from './PizzaTranslator';
+import MovieTheater from './MovieList';
 
 export default function App() {
 
   return (
     <View style={styles.container}>
-    <PizzaTranslator>
-
-    </PizzaTranslator>
+      <MovieTheater/>
     </View>
   );
 }
