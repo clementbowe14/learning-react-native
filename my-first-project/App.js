@@ -1,15 +1,18 @@
+import React from 'react';
+
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Cat from './Cat'
+import Cafe from './Cafe'
 import {useState, useEffect} from 'react';
+import PizzaTranslator from './PizzaTranslator';
 
 export default function App() {
 
   return (
     <View style={styles.container}>
-      <Cat name="Edward"></Cat>
-      <StatusBar style="auto" />
-      <Cat name="Jonathan"/>
+    <PizzaTranslator>
+
+    </PizzaTranslator>
     </View>
   );
 }
